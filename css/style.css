@@ -480,7 +480,6 @@ template {
   }
   .navbar__search {
     margin-left: auto;
-    max-width: 340px;
   }
   .navbar-menu {
     padding-top: 31px;
@@ -489,6 +488,9 @@ template {
   .navbar-menu__link {
     font-size: 12px;
     line-height: 13px;
+  }
+  .search__input {
+    max-width: 340px;
   }
   .logo {
     width: 132px;
@@ -520,6 +522,7 @@ template {
     width: 16px;
     height: 11px;
     border: none;
+    padding: 0;
   }
   .menu-button__line {
     width: 16px;
