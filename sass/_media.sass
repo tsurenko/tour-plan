@@ -14,7 +14,29 @@
       &__link
         font-size: 12px
         line-height: 13px
+  .logo
+    width: 132px
 @media ( max-width: 768px)
   .container
     max-width: 576px
     width: 92%
+  .navbar
+    &__search, &-menu, &__user
+      display: none
+  .menu
+    &-button
+      display: flex
+      flex-direction: column
+      justify-content: space-between
+      align-items: center
+      width: 16px
+      height: 11px
+      border: none
+      &__line
+        width: 16px
+        height: 1px
+        background-color: #333333
+@media ( max-width: 576px )
+  .logo
+    &__image
+      width: 99px
