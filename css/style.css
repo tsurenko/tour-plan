@@ -495,7 +495,7 @@ body {
   }
   .navbar-top {
     padding-top: 29px;
-    page-bottom: 19px;
+    padding-bottom: 19px;
   }
   .search__input {
     max-width: 340px;
