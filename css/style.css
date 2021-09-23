@@ -387,16 +387,16 @@ body {
 }
 
 .navbar__search {
-  margin-right: 75px;
+  margin-right: auto;
   margin-left: 108px;
 }
 
 .navbar-menu {
   font-weight: 700;
-  font-size: 12px;
+  font-size: 14px;
   list-style: none;
   margin: 0;
-  padding: 31px 0;
+  padding: 34px 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -591,8 +591,8 @@ body {
     margin-left: 43px;
   }
   .navbar-menu {
-    padding-top: 25px;
-    padding-bottom: 23px;
+    padding-top: 23px;
+    padding-bottom: 22px;
     -ms-flex-pack: distribute;
         justify-content: space-around;
   }
@@ -606,6 +606,7 @@ body {
   }
   .search__input {
     max-width: 340px;
+    padding-left: 23px;
   }
   .logo {
     width: 132px;
