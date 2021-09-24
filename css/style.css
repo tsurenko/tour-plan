@@ -618,6 +618,12 @@ body {
   .logo__image {
     width: 132px;
   }
+  .hotel {
+    padding-top: 21px;
+  }
+  .breadcrumb-list {
+    padding-top: 18px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -700,7 +706,16 @@ body {
     width: 99px;
   }
   .stars {
-    -ms-flex-preferred-size: 35%;
-        flex-basis: 35%;
+    -ms-flex-preferred-size: 26%;
+        flex-basis: 26%;
+  }
+  .hotel {
+    padding-top: 6px;
+  }
+  .hotel-info__name {
+    margin-top: 10px;
+  }
+  .breadcrumb-list {
+    padding-top: 18px;
   }
 }
