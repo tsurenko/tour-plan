@@ -433,7 +433,7 @@ body {
   color: #333333;
   font-size: 12px;
   line-height: 15px;
-  padding-left: 28px;
+  padding-left: 24px;
   padding-right: 75px;
 }
 
@@ -480,13 +480,13 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 18px 0;
+  padding: 13px 0;
   margin: 0;
 }
 
 .breadcrumb-list__item {
   font-size: 10px;
-  line-height: 13px;
+  line-height: 16px;
 }
 
 .breadcrumb-list__item:not(:last-child)::after {
@@ -500,8 +500,8 @@ body {
 }
 
 .hotel {
-  padding-top: 24px;
-  padding-bottom: 70px;
+  padding-top: 21px;
+  padding-bottom: 20px;
 }
 
 .hotel-info {
@@ -522,14 +522,17 @@ body {
   line-height: 13px;
   background-color: #EC1F46;
   border-radius: 3px;
-  padding: 4px 9px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-right: 11px;
+  padding-left: 12px;
   color: #ffffff;
 }
 
 .hotel-info__name {
   font-size: 24px;
   line-height: 30px;
-  margin-top: 4px;
+  margin-top: 1px;
   margin-bottom: 0;
 }
 
@@ -563,6 +566,7 @@ body {
   min-height: 45px;
   background-color: #EC1F46;
   text-align: center;
+  border-radius: 3px;
 }
 
 .raiting__text {
@@ -588,7 +592,7 @@ body {
     max-width: 700px;
   }
   .navbar__search {
-    margin-left: 43px;
+    margin-left: 48px;
   }
   .navbar-menu {
     padding-top: 23px;
