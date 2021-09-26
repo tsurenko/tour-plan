@@ -8,6 +8,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;600;700&family=Nunito:wght@400;600;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
   <title>Best Tour Plan - Booking Hotel</title>
 </head>
 <body>
@@ -104,8 +105,27 @@
           <span class="raiting__counter">4.5/5</span>
         </div>
       </div>
+      </div>
+      <div class="hotel-grid">
+        <div class="slider">
+          <!-- Slider main container -->
+          <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide"><img src="img/slider.png" alt="Hotel picture" class="swiper-slide__hotel"></div>
+            <div class="swiper-slide"><img src="img/slider-resort.png" alt="Hotel picture" class="swiper-slide__room"></div>
+            <div class="swiper-slide"><img src="img/slider-resort-pic.jpg" alt="Hotel picture" class="swiper-slide__pool"></div>
+          </div>
+          <!-- If we need navigation buttons -->
+          <button class="slider-button slider-button--next"><img src="img/arrow-next.svg" alt=""></button>
+          <button class="slider-button slider-button--prev"><img src="img/arrow-prev.svg" alt=""></button>
+        </div>
+      </div>
     </div>
   </div>
 </section>
+<script src="js/swiper-bundle.min.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html>
