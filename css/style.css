@@ -514,7 +514,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding-bottom: 40px;
+  padding-bottom: 20px;
 }
 
 .hotel-info__offer {
@@ -613,7 +613,6 @@ body {
   width: 100%;
   height: 100%;
   position: relative;
-  border-radius: 8px;
 }
 
 .swiper-slide::after {
@@ -629,6 +628,10 @@ body {
   height: 100%;
   z-index: 10;
   border-radius: 8px;
+}
+
+.swiper-slide__hotel {
+  border-radius: 10px;
 }
 
 .swiper-slide__room {
@@ -803,6 +806,7 @@ body {
   padding: 13px 0;
   border: none;
   cursor: pointer;
+  border-radius: 4px;
 }
 
 .map {
@@ -979,10 +983,10 @@ body {
     width: 100%;
   }
   .hotel-right__booking {
-    width: 100%;
+    width: 290px;
   }
   .map {
-    width: 100%;
+    width: 265px;
   }
   .stars {
     -ms-flex-preferred-size: 15%;
@@ -1049,6 +1053,9 @@ body {
   .breadcrumb-list {
     padding-top: 18px;
   }
+  .hotel-info {
+    padding-bottom: 40px;
+  }
   .hotel-right {
     width: 100%;
   }
@@ -1057,5 +1064,6 @@ body {
   }
   .map {
     width: 100%;
+    height: 172px;
   }
 }
