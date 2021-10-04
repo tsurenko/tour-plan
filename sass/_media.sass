@@ -93,12 +93,20 @@
         &:after, &:before
           display: none
   .activities
+    padding-top: 50px
     &-wrapper
       flex-wrap: wrap
     &__card
-      width: 48%
+      width: 49%
+      margin-bottom: 20px
+    &__card-1
+      width: 49%
+      margin-bottom: 20px
+    &__card-2
+      width: 49%
       margin-bottom: 20px
   .card
+    height: 255px
     &__img
       width: 100%
 @media ( max-width: 767px)
@@ -225,8 +233,8 @@
   .activities
     &-wrapper
       flex-direction: column
-    &__card
-      width: 100%
+  .card
+    width: 100%
 @media ( max-width: 320px )
   .container, .newslatter-wrapper
     max-width: 90%
@@ -274,3 +282,16 @@
         text-align: left
   .card
     width: 280px
+  .activities
+    padding-top: 27px
+    &__title
+      font-size: 18px
+      line-height: 23px
+      margin-bottom: 36px
+    &__card
+      margin-bottom: 25px
+    &__card-1
+      order: 1
+      margin-bottom: 20px
+    &__card-2
+      order: 2
