@@ -9,12 +9,17 @@
     grid-gap: 20px
     align-items: start
   &__logo
-    width: 166px
+    width: 155px
     grid-row: 1 / 3
     align-self: stretch
   &__legal
-    margin-left: 0
+    display: flex
+    flex-direction: column
+    align-items: flex-start
+  &__additional
+    margin-bottom: 5px
   &__categories
+    margin: 4px 0 0 0
     grid-row: 1 / 4
   &__social
     &-network
@@ -22,10 +27,17 @@
       align-content: start
       grid-column: 3 / 5
       grid-row: 2 / 4
+      text-transform: uppercase
+  .social
+    &__links
+      display: flex
+      justify-content: space-between
   &__contact
     &-details
+      margin: 0 70px 0 0
       grid-column: span 2
     &-form
+      margin: -25px 0 0 0
       grid-column: span 2
   &__form
     display: flex
@@ -34,7 +46,7 @@
     flex-wrap: wrap
   &__input
     height: 50px
-    flex-basis: 48%
+    flex-basis: 47%
     padding: 18px 5px 17px 23px
     margin-bottom: 15px
     text-align: left
@@ -71,7 +83,6 @@
     border: none
     border-radius: 4px
     overflow: hidden
-    margin-bottom: 102px
   &__info
     font-style: normal
     font-weight: bold
@@ -82,6 +93,10 @@
     padding: 0
     margin: 0
     list-style: none
+    &--m
+      text-align:
+      list-style: none
+      margin: 15px 0 0 -22px
   &__item
     font-style: normal
     font-weight: normal
@@ -102,10 +117,20 @@
     line-height: 23px
     color: #FFFFFF
     &--inline
-      margin: 0 43px 0 0
+      margin: 0 35px 0 0
+    &--right
+      text-align: right
+      margin: 3px 0 0 10px
+    &--mb
+      margin: 10px 0 25px 0
+      text-transform: uppercase
+    &--bt
+      text-transform: uppercase
+      margin: 23px 0 37px 0
   &__icon
+    margin-left: 6px
     &--m
-      margin-left: -4px
+      margin-left: 3px
     &-text
       font-style: normal
       font-weight: normal
@@ -120,19 +145,19 @@
       display: flex
       justify-content: space-between
       align-items: center
-      width: 217px
+      width: 230px
       &--width
         display: flex
         justify-content: space-between
         align-items: start
-        width: 475px
+        width: 485px
         margin-bottom: 20px
       &--width1
         display: flex
         justify-content: space-between
         align-items: start
-        width: 472px
-        margin-bottom: 20px
+        width: 485px
+        margin-bottom: 23px
   &__text
     margin: 0 0 22px 0
     font-style: normal
@@ -144,7 +169,7 @@
     display: flex
     justify-content: space-between
     width: 283px
-    margin-left: 109px
+    margin: 80px 0 0 125px
     grid-row: 5 / 6
     grid-column: 2 / 4
     font-style: normal
@@ -162,6 +187,7 @@
     min-width: 83px
     max-height: 20px
 .payments
+  margin-top: 75px
   grid-row: 5 / 6
   grid-column: 4 / 5
   text-align: right
