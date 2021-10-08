@@ -104,6 +104,7 @@
           display: none
   .activities
     padding-top: 50px
+    padding-bottom: 47px
     &-wrapper
       flex-wrap: wrap
     &__card
@@ -121,25 +122,40 @@
       width: 100%
   .footer
     &__logo
-      width: 104px
+      width: 94px
       grid-row: 1 / 2
+      margin-top: -32px
     &__social
       &-network
         grid-row: 1 / 2
         grid-column: span 3
-        align-self: center
-        margin: 0
+        margin: 17px -62px
     &__categories
       grid-row: 2 / 3
       grid-column: 1 / 2
-      margin: 38px 0 0 0
+      margin: 34px 0 0
     &__additional
       grid-row: 2 / 3
       grid-column: 2 / 4
-      margin: 38px 0 0 0
+      margin: 33px 0 0 -45px
+    &__message
+      margin-bottom: 19px
+    &__title
+      margin-bottom: 11px
+      &--right
+        margin: 0
+      &--inline
+        margin-left: 7px
+      &--mb
+        margin-top: 46px
+      &--bt
+        margin-top: 68px
+    &__ul
+      &--m
+        margin: 15px 0 0 -40px
     &__legal
       grid-row: 2 / 3
-      margin: 38px -33px 0 0
+      margin: 34px 0 0 -68px
     &__contact
       &-details
         grid-row: 3
@@ -151,7 +167,9 @@
     &__policy
       grid-column: 1 / 3
       grid-row: 5 / 6
-      margin: 80px 0 0 0
+      margin: 45px 0 0 0
+  .payments
+    margin-top: 38px
 @media ( max-width: 767px)
   .container
     max-width: 576px
@@ -248,19 +266,22 @@
     &__additional
       grid-column: 1
       grid-row: 4
+      margin-left: 0
     &__legal
       grid-column: 1
       grid-row: 3
+      margin-left: 0
     &__title
       &--right
         margin-left: 0
     &__ul
       &--m
-        padding: 23px
+        padding: 0 0 0 41px
     &__social
       &-network
         grid-column: 1
         grid-row: 2
+        margin-left: -8px
     &__contact
       &-details
         grid-column: 1
@@ -322,6 +343,17 @@
   .card
     width: 100%
   .footer
+    &__social
+      &-network
+        margin-left: -8px
+    &__ul
+      &--m
+        padding: 0
+        padding-left: 41px
+    &__legal
+      margin-left: 0
+    &__additional
+      margin-left: 0
     &__input
       flex-basis: 85%
     &__message
@@ -329,13 +361,16 @@
     &__icon
       margin-right: 10px
       &--m
-        margin-right: 10px
+        margin-left: 0
+        margin-right: 6px
       &-wrapper
         width: 223px
         &--width1
           width: 266px
+          margin-bottom: 21px
         &--width
           width: 269px
+          margin-bottom: 22px
 @media ( max-width: 320px )
   .container, .newslatter-wrapper
     max-width: 90%
@@ -384,11 +419,12 @@
   .card
     width: 280px
   .activities
-    padding-top: 27px
+    padding-top: 16px
+    padding-bottom: 39px
     &__title
       font-size: 18px
       line-height: 23px
-      margin-bottom: 36px
+      margin-bottom: 47px
     &__card
       margin-bottom: 25px
     &__card-1
@@ -397,17 +433,58 @@
     &__card-2
       order: 2
   .footer
+    padding-top: 67px
+    &__logo
+      width: 96px
+      margin-top: -2px
+    &__ul
+      &--m
+        padding: 15px 0 0 42px
     &__input
       flex-basis: 100%
+    &__legal
+      margin-top: 10px
+      margin: 19px 0 0 0
+    &__contact
+      &-details
+        margin-top: 8px
+    &__ul
+      &--m
+        margin-top: -5px
+    &__additional
+      margin-top: 13px
+      margin-left: 2px
+    &__categories
+      margin-top: 16px
+    &__title
+      &--mb
+        margin-top: 22px
+      &--bt
+        margin: 64px 0 16px 0
     &__message
       flex-basis: 100%
+      margin-bottom: 0
+    &__info
+      order: 1
+      flex-basis: 100%
+      margin-top: 15px
+      margin-bottom: 16px
+    &__button
+      order: 2
     &__social
       &-network
         display: flex
         flex-direction: column
+        margin: 0
     &__title
       &--inline
         margin: 0 0 22px 0
+    &__logo
+      margin-bottom: 24px
+    &__policy
+      margin: 9px 0 0 0
+    &__payments
+      margin: -28px 0 0 0
   .social
     &__links
       width: 80px
