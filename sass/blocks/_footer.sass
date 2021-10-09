@@ -95,10 +95,10 @@
     padding: 0
     margin: 0
     list-style: none
-    &--m
+    &_m
       text-align:
       list-style: none
-      margin: 15px 0 0 -22px
+      margin: 15px 0 0 12px
   &__item
     font-style: normal
     font-weight: normal
@@ -118,20 +118,23 @@
     font-size: 18px
     line-height: 23px
     color: #FFFFFF
-    &--inline
-      margin: 0 35px 0 0
-    &--right
-      margin: 3px 0 0 10px
-    &--mb
-      margin: 10px 0 25px 0
-      text-transform: uppercase
-    &--bt
-      text-transform: uppercase
-      margin: 23px 0 37px 0
+    &_direction
+      &_inline
+        margin: 0 35px 0 0
+      &_right
+        margin: 0 0 0 12px
+    &_margin
+      &_mb
+        margin: 10px 0 25px 0
+        text-transform: uppercase
+      &_bt
+        text-transform: uppercase
+        margin: 23px 0 37px 0
   &__icon
     margin-left: 5px
-    &--m
-      margin-left: 3px
+    &_size
+      &_m
+        margin-left: 3px
     &-text
       font-style: normal
       font-weight: normal
@@ -147,13 +150,13 @@
       justify-content: space-between
       align-items: center
       width: 230px
-      &--width
+      &_width
         display: flex
         justify-content: space-between
         align-items: start
         width: 485px
         margin-bottom: 20px
-      &--width1
+      &_width1
         display: flex
         justify-content: space-between
         align-items: start
