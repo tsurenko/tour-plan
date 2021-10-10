@@ -1841,6 +1841,7 @@ body {
   .navbar-menu__item--mobile_visible {
     display: block;
     width: 243px;
+    margin-bottom: 30px;
   }
   .user__name--light {
     color: #fff;
