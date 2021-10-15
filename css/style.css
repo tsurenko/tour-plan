@@ -1564,7 +1564,7 @@ body {
   position: fixed;
   z-index: 101;
   max-width: 478px;
-  top: 50%;
+  top: 52%;
   left: 50%;
   padding: 33px 88px;
   background-color: #0A223D;
@@ -1586,18 +1586,19 @@ body {
 
 .modal__close {
   position: absolute;
-  top: 17;
+  top: 17px;
   right: 18px;
   text-decoration: none;
 }
 
 .modal__title {
-  margin: 0 0 15px 0;
+  margin: 0 0 17px 0;
   text-align: center;
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
   line-height: 23px;
+  text-transform: uppercase;
 }
 
 .modal__input {
@@ -1651,7 +1652,7 @@ body {
   font-weight: bold;
   font-size: 12px;
   line-height: 15px;
-  margin-left: 37px;
+  margin-left: 41px;
 }
 
 @media (max-width: 1200px) {
