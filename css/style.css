@@ -2166,6 +2166,18 @@ body {
     text-align: left;
     margin: 0;
   }
+  .modal__dialog {
+    width: 100%;
+  }
+  .modal__form {
+    width: 302px;
+  }
+  .modal__input {
+    width: 100%;
+  }
+  .modal__message {
+    width: 100%;
+  }
 }
 
 @media (max-width: 576px) {
@@ -2263,6 +2275,17 @@ body {
   .footer__icon-wrapper_width {
     width: 269px;
     margin-bottom: 22px;
+  }
+  .modal__dialog {
+    width: 100%;
+    padding: 50px 50px 20px 50px;
+  }
+  .modal__form {
+    width: 100%;
+  }
+  .modal__info {
+    margin: 15px 0 0 0;
+    display: block;
   }
 }
 
@@ -2436,5 +2459,16 @@ body {
   }
   .social__links {
     width: 80px;
+  }
+  .modal__dialog {
+    width: 100%;
+    padding: 20px;
+  }
+  .modal__form {
+    width: 100%;
+  }
+  .modal__info {
+    display: inline;
+    margin-left: 19px;
   }
 }
