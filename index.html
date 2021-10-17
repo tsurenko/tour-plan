@@ -9,6 +9,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;600;700&family=Nunito:wght@400;600;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/swiper-bundle.min.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <title>Best Tour Plan - Booking Hotel</title>
 </head>
 <body>
@@ -16,28 +17,29 @@
     <div class="container">
       <div class="navbar-top">
         <a href="#" class=" logo">
-          <img src="img/horizontal-logo.svg" alt="Logo: Best Tour Plan" class="logo__image">
+          <img src="img/horizontal-logo.svg" alt="Logo: Best Tour Plan" class="logo__image" data-aos="fade-right" data-aos-duration="1500">
         </a>
-        <form action="#" class="search navbar__search navbar__search--mobile_hidden">
+        <form action="#" class="search navbar__search navbar__search--mobile_hidden"data-aos="fade-down" data-aos-duration="1500">
           <input type="text" class="search__input" placeholder="Search Location">
           <button class="search__button"><img src="img/search.svg" alt="Icon: search"></button>
           <a href="#" class="user"></a>
         </form>
-            <a href="#" class="user navbar__user navbar__user--mobile_hidden">
-              <img src="img/user-logo.jpeg" alt="Logo: Nathan" class="user__logo">
-              <span class="user__name">Nathan</span>
-            </a>
-            <button class="menu-button navbar-top__menu-button">
-              <span class="menu-button__line"></span>
-              <span class="menu-button__line"></span>
-              <span class="menu-button__line"></span>
-            </button>
+        <div data-aos="fade-left" data-aos-duration="1500" >
+          <a href="#" class="user navbar__user navbar__user--mobile_hidden">
+            <img src="img/user-logo.jpeg" alt="Logo: Nathan" class="user__logo">
+            <span class="user__name">Nathan</span>
+          </a>
+          <button class="menu-button navbar-top__menu-button">
+            <span class="menu-button__line"></span>
+            <span class="menu-button__line"></span>
+            <span class="menu-button__line"></span>
+          </button>
+        </div>
       </div>
-          
     </div>
-    <div class="navbar-buttom navbar-buttom_visible ">
+    <div class="navbar-buttom navbar-buttom_visible">
       <div class="container">
-        <nav>
+        <nav data-aos="fade-down" data-aos-duration="1500">
             <ul class="navbar-menu">
               <li class="navbar-menu__item navbar-menu__item--mobile_visible">
                 <a href="#" class="user navbar__user navbar__user--mobile_visible">
@@ -78,7 +80,7 @@
       </div>
     </div>
   </header> 
-<nav class="breadcrumb">
+<nav class="breadcrumb" data-aos="fade-right" data-aos-duration="1500">
   <div class="container">
     <ul class="breadcrumb-list">
       <li class="breadcrumb-list__item">
@@ -96,7 +98,7 @@
 <section class="hotel">
   <div class="container">
     <div class="hotel-info">
-      <div class="hotel-info__text">
+      <div class="hotel-info__text" data-aos="fade-right"  data-aos-duration="1500">
         <div class="hotel-wrapper">
           <div class="stars">
             <img src="img/Star.svg" alt="star">
@@ -112,7 +114,7 @@
               Half-Board / All Inclusive + Complimentary Activities + Child Stays Free
           </p>
       </div>
-      <div class="hotel-info__right">
+      <div class="hotel-info__right" data-aos="fade-left"  data-aos-duration="1500">
         <div class="raiting hotel-info__raiting">
           <span class="raiting__text">User Rattings</span>
           <span class="raiting__counter">4.5/<span class="raiting__5">5</span> </span>
@@ -121,7 +123,7 @@
       </div>
         <div class="hotel-grid">
           <!-- Slider main container -->
-          <div class="swiper hotel-slider hotel__slider">
+          <div class="swiper hotel-slider hotel__slider" data-aos="flip-up"  data-aos-duration="1500">
           <!-- Additional required wrapper -->
             <div class="swiper-wrapper">
             <!-- Slides -->
@@ -133,7 +135,7 @@
           <button class="hotel-slider__button hotel-slider__button--next"><img src="img/arrow-next.svg" alt=""></button>
           <button class="hotel-slider__button hotel-slider__button--prev"><img src="img/arrow-prev.svg" alt=""></button>
         </div>
-          <div class="hotel-right">
+          <div class="hotel-right" data-aos="flip-up"  data-aos-duration="1500">
             <div class="booking hotel-right__booking">
               <div class="booking__info">
                 <div class="booking__price">
@@ -170,11 +172,11 @@
 </section>
 <section class="newsletter">
   <div class="newsletter-wrapper">
-    <h2 class="newsletter__title">
+    <h2 class="newsletter__title"  data-aos="fade-left" data-aos-duration="1500">
       subscribe to our
       <span class="newsletter__strong">Newsletter</span>
     </h2>
-      <form action="send.php" method="POST" class=" subscribe newsletter__subscribe form">
+      <form action="send.php" method="POST" class=" subscribe newsletter__subscribe form" data-aos="fade-right" data-aos-duration="1500" >
           <input type="email" name="email" class="subscribe__input" placeholder="Your email address" required>
           <button class="subscribe__button">Send</button>
         </form>
@@ -182,12 +184,12 @@
 </section>
 <section class="reviews">
   <div class="container">
-    <h2 class="reviews__title">What people think about us</h2>
+    <h2 class="reviews__title" data-aos="fade-down" data-aos-duration="1500">What people think about us</h2>
       <div class="swiper reviews-slider">
         <div class="swiper-wrapper">
           <div class="swiper-slide">
-            <div class="reviews-slider__item">
-              <div class="reviews-slider__profile">
+            <div class="reviews-slider__item" data-aos="fade-up" data-aos-duration="1500">
+              <div class="reviews-slider__profile" >
                 <img class="reviews-slider__avatar" src="img/review.jpeg" alt="Magan Fox">
                 <h3 class="reviews-slider__username">Megan Fox</h3>
                 <span class="reviews-slider__date">Stayed 18 Nov, 2019</span>
@@ -204,7 +206,7 @@
               </p>
             </div>
           </div>
-          <div class="swiper-slide">
+          <div class="swiper-slide" >
             <div class="reviews-slider__item">
               <div class="reviews-slider__profile">
                 <img class="reviews-slider__avatar" src="img/BogdanShuler.jpeg" alt="Bogdan Shuler">
@@ -250,24 +252,24 @@
 </section>
 <section class="activities">
   <div class="container">
-    <h2 class="activities__title">Other Activities</h2>
+    <h2 class="activities__title" data-aos="fade-down" data-aos-duration="1500">Other Activities</h2>
     <div class="activities-wrapper">
-      <div class="card activities__card">
+      <div class="card activities__card" data-aos="fade-down" data-aos-duration="1500">
         <img src="img/activity-1.jpeg" alt="The curious corner of chamarel" class="card__img">
         <h3 class="card__title-1">The curious corner of chamarel</h3>
         <button data-toggle="modal" class="card__button">Book Now</button>
       </div>
-      <div class="card activities__card-1">
+      <div class="card activities__card-1" data-aos="fade-down" data-aos-duration="2300">
         <img src="img/activity-2.jpeg" alt="Gymkhana club golf course" class="card__img">
         <h3 class="card__title-2">Gymkhana club golf course</h3>
         <button data-toggle="modal" class="card__button">Book Now</button>
       </div>
-      <div class="card activities__card">
+      <div class="card activities__card" data-aos="fade-down" data-aos-duration="2600">
         <img src="img/activity-3.jpeg" alt="Tamarind falls hiking trip - full day" class="card__img">
         <h3 class="card__title-3">Tamarind falls hiking trip - full day</h3>
         <button data-toggle="modal" class="card__button">Book Now</button>
       </div>
-      <div class="card activities__card-2">
+      <div class="card activities__card-2" data-aos="fade-down" data-aos-duration="2900">
         <img src="img/activity-4.jpeg" alt="The blue marine discovery quest" class="card__img">
         <h3 class="card__title-4">The blue marine discovery quest</h3>
         <button data-toggle="modal" class="card__button">Book Now</button>
@@ -396,5 +398,7 @@
 <script src="js/jquery.validate.min.js"></script>
 <script src="js/jquery.mask.min.js"></script>
 <script src="js/main.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>AOS.init();</script>
 </body>
 </html>
