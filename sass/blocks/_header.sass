@@ -27,6 +27,10 @@
       color: #ffff
       text-decoration: none
       text-transform: uppercase
+    &__item:hover
+      -webkit-transform: scale(1.2)
+      -ms-transform: scale(1.2)
+      transform: scale(1.2)
     &__item
       &--mobile
         &_visible
@@ -39,6 +43,7 @@
   border-radius: 6px
   height: 40px
   &__input
+    opacity: 1
     width: 350px
     height: 100%
     background-color: #F5FAFE
@@ -48,7 +53,10 @@
     line-height: 15px
     padding-left: 24px
     padding-right: 75px
+  &__input:hover
+    opacity: 0.6
   &__button
+    opacity: 1
     position: absolute
     right: 0
     width: 65px
@@ -56,6 +64,8 @@
     background-color: #EC1F46
     border: none
     cursor: pointer
+  &__button:hover
+    opacity: 0.8
 .user
   display: flex
   align-items: center

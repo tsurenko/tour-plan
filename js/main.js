@@ -50,15 +50,16 @@ menuButton.addEventListener("click", function () {
       errorClass: "invalid",
       messages: {
         name: {
-        required: "Please specify your name",
-        minlenght:  "Name must be at least 2 letters",
+          required: "Please specify your name",
+          minlength:  "Name must be at least 2 letters",
       },
       email: {
         required: "We need your email address to contact you",
         email: "Your email address must be in the format of name@domain.com",
       },
       phone: {
-      required: "Enter your phone,please",
+        required: "Enter your phone,please",
+        minlength:  "+7(ХХХ)ХХХ-ХХХХ",
       },
     },
     });
